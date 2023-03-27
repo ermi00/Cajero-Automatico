@@ -1,10 +1,38 @@
-// let peliculas = [
-//     {titulo: "DJango", director: "Quentin Tarantino", año: 2016},
-//     {titulo: "Oppenheimer", director: "Christopher Nolan", año: 2024},
-//     {titulo: "Avatar", director: "James Cameron", año: 2010}
-// ]
+let cuentas = [
+    {nombre: "Julian", saldo: 135},
+    {nombre: "Samuel", saldo: 580},
+    {nombre: "Fernando", saldo: 45}
+];
 
 
-// for(let i = 0; i < peliculas.length; i++){
-//     console.log(peliculas[i].titulo, peliculas[i].director);
+
+
+// // CONSULTAR SALDO //
+
+// console.log(cuentas[2].saldo);
+
+
+// // INGRESAR MONTO //
+
+// let inputUsuario = document.getElementById("myInput");
+
+// let montoUsuario = inputUsuario
+
+// function ingresarMonto(){
+//     console.log(`Ingresaste ${montoUsuario}`);
+//     console.log(`Operacion exitosa. Saldo actual: ${montoUsuario + cuentas[2].saldo}`);
 // }
+
+// ingresarMonto();
+
+
+// // RETIRAR MONTO //
+
+// let montoUsuario = parseInt(prompt("Cuanto saldo quieres retirar?"));
+
+// function retirarMonto(){
+//     console.log(`Retiraste ${montoUsuario}`);
+//     console.log(`Operacion exitosa. Saldo actual: ${cuentas[2].saldo - montoUsuario}`);
+// }
+
+// retirarMonto();

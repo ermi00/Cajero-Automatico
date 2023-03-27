@@ -4,15 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>Cajero Automatico</title>
 </head>
 <body>
-    <h1>CAJERO AUTOMATICO</h1>
-    <p>Selecciona tu cuenta</p>
+    <section id="sectionCuentas">
+        <h1>Cuentas</h1>
+        <h2>Seleciona tu cuenta de usuario.</h2>
+        <form action="">
+            <div class="divInputCuentas">
+                <label for="inputUsuario1"><img src="./assets/User1.png" alt="Foto de perfil del Usuario 1"></label>
+                <input type="radio" id="inputUsuario1" name="grupoInputCuentas">
+            </div>
 
+            <div class="divInputCuentas">
+                <label for="inputUsuario2"><img src="./assets/User2.png" alt="Foto de perfil del Usuario 2"></label>
+                <input type="radio" id="inputUsuario2" name="grupoInputCuentas">
+            </div>
 
-    
-    <script src="./index.js"></script>
+            <div class="divInputCuentas">
+                <label for="inputUsuario3"><img src="./assets/User3.png" alt="Foto de perfil del Usuario 3"></label>
+                <input type="radio" id="inputUsuario3" name="grupoInputCuentas">
+            </div>
+        </form>
+        <a type="submit" id="boton" class="botones">Continuar</a>
+    </section>
+
+    <section id="sectionOperaciones">
+        <h1>Operaciones</h1>
+        <h2>Seleciona una operacion a realizar.</h2>
+        <div>
+            <button type="submit" class="botones">Consultar Saldo</button>
+            <button type="submit" class="botones">Ingresar monto</button>
+            <button type="submit" class="botones">Retirar monto</button>
+        </div>
+        <div>
+            <h1>Tu saldo actual es de:</h1>
+            <span></span>
+        </div>
+
+        <div>
+            <h1>Ingresa la cantidad a depositar</h1>
+            <input type="number" placeholder="$">
+            <button type="submit" class="botones">CONFIRMAR</button>
+            <span></span>
+        </div>
+
+        <div>
+            <h1>Ingresa la cantidad a retirar</h1>
+            <input type="number" placeholder="$">
+            <button type="submit" class="botones">CONFIRMAR</button>
+            <span></span>
+        </div>
+    </section>
+    <script src="./pruebas.js"></script>
 </body>
 </html>
+

@@ -4,8 +4,113 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color: #000;
+}
+
+/* SECTION CUENTAS */
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+h2{
+    color: white;
+    font-weight: 100;
+    font-size: medium;
+    margin-bottom: 50px;
+}
+
+img{
+    width: 200px;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+img:hover{
+    opacity: 80%;
+    transition: 0.3s;
+}
+
+a{
+    text-decoration: none;
+    background: linear-gradient(82deg,#e1054a 19%,#ce4100);
+    color: white;
+    padding: 12px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 5px;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+a:hover{
+    opacity: 80%;
+    transition: 0.3s;
+}
+
+a:active{
+    opacity: 80%;
+}
+
+form{
+    display: flex;
+}
+
+.divInputCuentas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* SECTION OPERACIONES  */
+
+#sectionOperaciones{
+    display: none;
+}
+
+.botones{
+    border: 0px;
+    text-decoration: none;
+    background: linear-gradient(82deg,#e1054a 19%,#ce4100);
+    color: white;
+    padding: 12px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 5px;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+.botones:hover{
+    opacity: 80%;
+    transition: 0.3s;
+}
+
+.botones:active{
+    opacity: 80%;
+}
+
+input{
+    padding: 12px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 5px;
+}
+
+span{
+    color: white;
+    font-size: 100px;
 }
