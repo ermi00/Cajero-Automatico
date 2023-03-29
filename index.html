@@ -30,36 +30,37 @@
                 <input type="radio" id="inputUsuario3" name="grupoInputCuentas">
             </div>
         </form>
-        <a type="submit" id="boton" class="botones">Continuar</a>
+        <a type="submit" id="botonContinuar" class="botones">Continuar</a>
     </section>
 
     <section id="sectionOperaciones">
         <h1>Operaciones</h1>
         <h2>Seleciona una operacion a realizar.</h2>
         <div>
-            <button type="submit" class="botones">Consultar Saldo</button>
-            <button type="submit" class="botones">Ingresar monto</button>
-            <button type="submit" class="botones">Retirar monto</button>
+            <button type="submit" id="botonConsultarSaldo" class="botones">Consultar Saldo</button>
+            <button type="submit" id="botonIngresarMonto" class="botones">Ingresar monto</button>
+            <button type="submit" id="botonRetirarMonto" class="botones">Retirar monto</button>
         </div>
-        <div>
+        <div id="menuSaldoActual">
             <h1>Tu saldo actual es de:</h1>
-            <span></span>
+            <span id="spanResultadoSaldoActual"></span>
         </div>
 
-        <div>
+        <div id="menuIngresarMonto">
             <h1>Ingresa la cantidad a depositar</h1>
-            <input type="number" placeholder="$">
-            <button type="submit" class="botones">CONFIRMAR</button>
-            <span></span>
+            <input type="number" placeholder="$" id="inputIngresarMonto">
+            <button type="submit" class="botones" id="botonConfirmarIngresarMonto">CONFIRMAR</button>
+            <span id="spanResultadoIngresarMonto"></span>
         </div>
 
-        <div>
+        <div id="menuRetirarMonto">
             <h1>Ingresa la cantidad a retirar</h1>
-            <input type="number" placeholder="$">
-            <button type="submit" class="botones">CONFIRMAR</button>
-            <span></span>
+            <input type="number" placeholder="$" id="inputRetirarMonto">
+            <button type="submit" class="botones" id="botonConfirmarRetirarMonto">CONFIRMAR</button>
+            <span id="spanResultadoRetirarMonto"></span>
         </div>
     </section>
+    
     <script src="./pruebas.js"></script>
 </body>
 </html>

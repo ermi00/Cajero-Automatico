@@ -36,6 +36,7 @@ img{
     width: 200px;
     margin: 10px;
     transition: 0.3s;
+    border-radius: 5px;
 }
 
 img:hover{
@@ -105,12 +106,44 @@ form{
 
 input{
     padding: 12px;
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
     border-radius: 5px;
+    margin-top: 10px;
 }
 
-span{
+#spanResultadoSaldoActual{
     color: white;
     font-size: 100px;
+    margin-top: 10px;
+}
+
+#spanResultadoIngresarMonto{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#spanResultadoRetirarMonto{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* MENUS DEL CAJERO */
+
+#menuSaldoActual{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+#menuIngresarMonto{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+#menuRetirarMonto{
+    display: none;
+    flex-direction: column;
+    align-items: center;
 }
