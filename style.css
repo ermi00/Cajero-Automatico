@@ -11,6 +11,39 @@ body{
     background-color: #000;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    margin: 20px;
+}
+
+.a-nav{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.a-nav:hover{
+    transition: 0.3s;
+    color: #ce4100
+}
+
 /* SECTION CUENTAS */
 
 section{
@@ -44,7 +77,7 @@ img:hover{
     transition: 0.3s;
 }
 
-a{
+#botonContinuar{
     text-decoration: none;
     background: linear-gradient(82deg,#e1054a 19%,#ce4100);
     color: white;
@@ -56,13 +89,9 @@ a{
     transition: 0.3s;
 }
 
-a:hover{
+#botonContinuar:hover{
     opacity: 80%;
     transition: 0.3s;
-}
-
-a:active{
-    opacity: 80%;
 }
 
 form{
