@@ -176,3 +176,75 @@ input{
     flex-direction: column;
     align-items: center;
 }
+
+#comentarioPersonal{
+    color: white;
+    opacity: 20%;
+}
+
+
+
+@media (max-width: 425px){
+    h1{
+        font-size: 45px;
+        margin-top: 20px;
+    }
+
+    li{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .a-nav{
+        font-size: 14px;    
+    }
+
+    p{
+        font-size: 14px;
+        width: 300px;
+        margin-left: 5px;
+    }
+
+    .aEntrar{
+        margin-left: 5px;
+    }
+
+    form{
+        display: block;
+    }
+
+    h2{
+        margin-bottom: 25px;
+    }
+
+    #sectionOperaciones h1{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    #sectionOperaciones h2{
+        font-size: 12px;
+    }
+
+    div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #spanResultadoSaldoActual{ 
+        font-size: 100px;
+    }
+
+    #spanResultadoIngresarMonto{ 
+        font-size: 16px;
+    }
+
+    #spanResultadoRetirarMonto{ 
+        font-size: 16px;
+    }
+
+    #botonContinuar{
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+}
