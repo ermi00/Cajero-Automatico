@@ -84,15 +84,15 @@ botonConsultarSaldo.addEventListener("click", function () {
     if (inputUsuario1.checked) {
         spanResultadoSaldoActual.textContent = `$${cuentas[0].saldo}`
         zeldaSound.play();
-        zeldaSound.volume = 0.2
+        zeldaSound.volume = 0.3
     } else if (inputUsuario2.checked) {
         spanResultadoSaldoActual.textContent = `$${cuentas[1].saldo}`
         zeldaSound.play();
-        zeldaSound.volume = 0.2
+        zeldaSound.volume = 0.3
     } else if (inputUsuario3.checked) {
         spanResultadoSaldoActual.textContent = `$${cuentas[2].saldo}`
         zeldaSound.play();
-        zeldaSound.volume = 0.2
+        zeldaSound.volume = 0.3
     }
 });
 
